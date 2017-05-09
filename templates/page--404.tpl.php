@@ -22,6 +22,8 @@
     </div>
   <?php endif; ?>
 
+    <!--Redirect user to front page after 10 sec  -->
+    <meta http-equiv="refresh" content="10;<?php print $front_page; ?>">
 
   <div class="page-404__wrapper">
 
